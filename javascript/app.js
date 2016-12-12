@@ -4,8 +4,12 @@
 'use strict';
 var learnjavascript={};
 
-learnjavascript.showView = function(hash){
-    var questionView =  $('<div class="question-view">').text('Arriving Soon!');
-      $('.view-container').empty().append(questionView);
-    };
+learnjavascript.questionView = function(){
+    return $('<div class="question-view">').text('Arriving Soon!!!');
+};
 
+learnjavascript.showView = function(hash) {
+    var routes = {
+        '#question-1'
+    }
+}
